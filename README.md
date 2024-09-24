@@ -15,7 +15,8 @@ The tables are connected in the following way:
 ![image](https://github.com/user-attachments/assets/601ddc01-f809-4c0b-a417-a01b0c72bfaa)
 
 
-** Table Relationships: **
+**Table Relationships:**
+
 You can see below the database schema that was generated trough Impal which contains all the tables and the relationship between them.
 a.* Table **Produse** is connected with Table **Clienti** trough a relationship **1:m** which was implemented trough
 **Produse_produse_id** as a primary key and
@@ -29,9 +30,9 @@ c. Table **ComandaClienti** is connected with Table **ComandaDetailata** trough 
 **CoandaClienti_Comanda_id**  as a primary key and
 **ComandaDetailata_fk_ComandaDetailata_ComandaClienti_clienti** as a forgein key
 
-Tables
+**Tables**
 
-``
+```
 1.	**Produse**
 
 • Produse_id (int primary key auto_increment)
