@@ -31,14 +31,14 @@ c. Table **ComandaClienti** is connected with Table **ComandaDetailata** trough 
 
 Tables
 
-```
+``
 1.	**Produse**
 
-•	Produse_id (int primary key auto_increment)
-•	Client_id int,
-•	NumeArticol (varchar(30))
-•	Pret float
-•	Agent (varchar(30))
+• Produse_id (int primary key auto_increment)
+• Client_id int,
+• NumeArticol (varchar(30))
+• Pret float
+• Agent (varchar(30))
 
 2.	**Clienti**
    
@@ -53,14 +53,14 @@ Tables
 
  3. **ComandaClienti**
     
-•	Comanda_id int not null auto_increment
-•	DataComanda date
-•	PretTotal Float
-•	Client_id int not null
-•	Produse_id int not null
-•	Primary key(comanda_id)
-•	Constraint fk_ComandaClienti_Clienti foreign key (client_id) 
-•	References Clienti(client_id)
+• Comanda_id int not null auto_increment
+• DataComanda date
+• PretTotal Float
+• Client_id int not null
+• Produse_id int not null
+• Primary key(comanda_id)
+• Constraint fk_ComandaClienti_Clienti foreign key (client_id) 
+• References Clienti(client_id)
 
 4. **ComandaDetailata** 
    
