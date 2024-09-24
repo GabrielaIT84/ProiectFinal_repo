@@ -10,7 +10,7 @@ Tools used: MySQL Workbench.You can find the code here.
 You can find below the database schema that was generated through Impal and which contains all the tables and the relationships between them.
 The tables are connected in the following way:
 
-Database Structure
+**Database Structure**
 
 ![image](https://github.com/user-attachments/assets/601ddc01-f809-4c0b-a417-a01b0c72bfaa)
 
@@ -32,7 +32,7 @@ c. Table **ComandaClienti** is connected with Table **ComandaDetailata** trough 
 Tables
 
 
-1.	** Produse **
+1.	**Produse**
 
 •	Produse_id (int primary key auto_increment)
 •	Client_id int,
@@ -40,7 +40,7 @@ Tables
 •	Pret float
 •	Agent (varchar(30))
 
-2.	** Clienti**
+2.	**Clienti**
    
 • Client_id int not null auto_increment
 •	NumeClient varchar(30) not null
@@ -51,7 +51,7 @@ Tables
 •	constraint fk_Clienti_Produse foreign key (produse_id) references Produse(produse_id)
 
 
- 3. ** ComandaClienti**
+ 3. **ComandaClienti**
     
 •	Comanda_id int not null auto_increment
 •	DataComanda date
@@ -62,7 +62,7 @@ Tables
 •	Constraint fk_ComandaClienti_Clienti foreign key (client_id) 
 •	References Clienti(client_id)
 
-4. ** ComandaDetailata** 
+4. **ComandaDetailata** 
    
 •	CD_id int not null auto_increment
 •	NumarFactura varchar(10)
