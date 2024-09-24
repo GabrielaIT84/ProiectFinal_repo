@@ -19,7 +19,7 @@ The tables are connected in the following way:
 
 You can see below the database schema that was generated trough Impal which contains all the tables and the relationship between them.
 
-a.* Table **Produse** is connected with Table **Clienti** trough a relationship **1:m** which was implemented trough
+a. Table **Produse** is connected with Table **Clienti** trough a relationship **1:m** which was implemented trough
 **Produse_produse_id** as a primary key and
 **Clienti_fk_Clienti_produse** as a forgein key
 
@@ -88,16 +88,12 @@ The following instructions were written in the scope of CREATING the structure o
 
 In the example above, I created the "Produse" table, which includes the following columns:
 
-User ID, which is unique, is of type INT (integer), representing whole numbers.
-Username has the data type VARCHAR(32), a string of up to 32 characters, and it cannot be left empty.
-Email has the data type VARCHAR(255), a string of up to 255 characters. The UNIQUE constraint enforces that values in a column or a combination of columns must be unique across the entire dataset of the table.
-Password is of type VARCHAR(125), a string of up to 125 characters.
-DateOfBirth is of type DATE, storing only dates in the format year/month/day.
-```
-•<b>Produse_id<b> (int primary key auto_increment)
-• Client_id int,
-• NumeArticol (varchar(30))
-• Pret float
-• Agent (varchar(30))
+
+• **Produse_id** (int primary key auto_increment) which is unique, is of type INT (integer), representing whole numbers.
+• **Client_id** is of type INT (integer), representing whole numbers.
+• **NumeArticol** has the data type VARCHAR(30), a string of up to 30 characters.
+    The UNIQUE constraint enforces that values in a column or a combination of columns must be unique across the entire dataset of the table.
+• **Pret**  float
+• **Agent**  is of type VARCHAR(125), a string of up to 125 characters.
 ```
 
