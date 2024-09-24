@@ -9,3 +9,5 @@ Tools used: MySQL Workbench.You can find the code here.
 
 You can find below the database schema that was generated through Impal and which contains all the tables and the relationships between them.
 The tables are connected in the following way:
+
+![image](https://github.com/user-attachments/assets/601ddc01-f809-4c0b-a417-a01b0c72bfaa)
