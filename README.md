@@ -88,12 +88,12 @@ The following instructions were written in the scope of CREATING the structure o
 
 In the example above, I created the "Produse" table, which includes the following columns:
 
-"
-• **Produse_id** (int primary key auto_increment) which is unique, is of type INT (integer), representing whole numbers.
-• **Client_id** is of type INT (integer), representing whole numbers.
-• **NumeArticol** has the data type VARCHAR(30), a string of up to 30 characters.
+```
+• _Produse_id_ (int primary key auto_increment) which is unique, is of type INT (integer), representing whole numbers.
+• _Client_id _ is of type INT (integer), representing whole numbers.
+• _NumeArticol_ has the data type VARCHAR(30), a string of up to 30 characters.
     The UNIQUE constraint enforces that values in a column or a combination of columns must be unique across the entire dataset of the table.
-• **Pret**  float
-• **Agent**  is of type VARCHAR(30), a string of up to 30 characters.
-"
+• _Pret_ float
+• _Agent _ is of type VARCHAR(30), a string of up to 30 characters.
+```
 
