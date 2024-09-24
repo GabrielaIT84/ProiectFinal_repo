@@ -41,6 +41,7 @@ Tables
 •	Agent (varchar(30))
 
 2.	Clienti
+   
 • Client_id int not null auto_increment,
 •	NumeClient varchar(30) not null,
 •	Adresa varchar(30) not null,
@@ -51,6 +52,7 @@ Tables
 
 
  3. ComandaClienti
+    
 •	Comanda_id int not null auto_increment,
 •	DataComanda date,
 •	PretTotal Float,
@@ -61,6 +63,7 @@ Tables
 •	References Clienti(client_id)
 
 4. ComandaDetailata
+   
 •	CD_id int not null auto_increment,
 •	NumarFactura varchar(10),
 • Produse_id int not null,
