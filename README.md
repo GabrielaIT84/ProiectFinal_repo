@@ -12,6 +12,7 @@ The tables are connected in the following way:
 
 **Database Structure**
 
+
 ![image](https://github.com/user-attachments/assets/601ddc01-f809-4c0b-a417-a01b0c72bfaa)
 
 
@@ -78,10 +79,14 @@ c. Table **ComandaClienti** is connected with Table **ComandaDetailata** trough 
 
 ## Database Queries
 
+
 **DDL (Data Definition Language)**
+
 The following instructions were written in the scope of CREATING the structure of the database (CREATE INSTRUCTIONS)
 
+
 ![image](https://github.com/user-attachments/assets/8c034313-a948-4d5a-b490-70f2f1ca78b1)
+
 
 ![image](https://github.com/user-attachments/assets/0d861575-2db8-4705-bca3-4cd48adbb103)
 
@@ -98,7 +103,9 @@ The UNIQUE constraint enforces that values in a column or a combination of colum
 
 ```
 **DML (Data Manipulation Language)**
+
 In order to be able to use the database I populated the tables with various data necessary in order to perform queries and manipulate the data. In the testing process, this necessary data is identified in the Test Design phase and created in the Test Implementation phase.
+
 
 Below you can find all the insert instructions that were created in the scope of this project:
 
@@ -134,6 +141,7 @@ In order to simulate various scenarios that might happen in real life I created 
 
 
 ## Conclusions:
+
 This database project for a "IMPAL" application has been a comprehensive and practical application of SQL knowledge gained throughout the Software Testing course. The following key points summarize the work and lessons learned:
 
 **SQL Application:** The project provided hands-on experience in applying SQL concepts, including data definition, manipulation, and querying. Creating tables, establishing relationships, and performing CRUD operations enhanced the understanding of SQL in a real-world context.
