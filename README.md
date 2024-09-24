@@ -50,7 +50,6 @@ c. Table **ComandaClienti** is connected with Table **ComandaDetailata** trough 
 • primary key (client_id)
 • constraint fk_Clienti_Produse foreign key (produse_id) references Produse(produse_id)
 
-
  3. ComandaClienti
 • Comanda_id int not null auto_increment
 • DataComanda date
@@ -73,7 +72,9 @@ c. Table **ComandaClienti** is connected with Table **ComandaDetailata** trough 
 
 ```
 
+**Primary Key:** A primary key is a column or set of columns that can serve as a unique identifier for each row in a table. It ensures that each row in the table is uniquely identified. In the 'Impal' database, each table has an 'ID' column defined as the primary key at the time of table creation. This 'ID' is accompanied by the AUTO_INCREMENT attribute, which automatically generates a unique integer each time a new row is inserted into the table.
 
+**Foreign Key:** A foreign key is a potential identifier that helps establish a connection with other tables. It always contains values that already exist as primary keys in the parent table. In the 'Impal' database, foreign keys are utilized to establish relationships between tables, linking data based on the primary key of another table.
 
 
 
