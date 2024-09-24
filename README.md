@@ -106,6 +106,19 @@ Below you can find all the insert instructions that were created in the scope of
 
 ![image](https://github.com/user-attachments/assets/bd487a81-f71d-4fe0-9f65-ef917f1d75e1)
 
+After the insert, in order to prepare the data to be better suited for the testing process, I updated some data in the following way:
+
+![image](https://github.com/user-attachments/assets/58d98c8b-1285-404c-a8d9-6ee4240e2437)
+
+![image](https://github.com/user-attachments/assets/7e7b01ad-89c5-4824-bc13-2d1135cc4baf)
+
+
+
+ 
+
+
+
+
 
 
 
