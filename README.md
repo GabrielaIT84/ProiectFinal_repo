@@ -76,7 +76,9 @@ c. Table **ComandaClienti** is connected with Table **ComandaDetailata** trough 
 
 **Foreign Key:** A foreign key is a potential identifier that helps establish a connection with other tables. It always contains values that already exist as primary keys in the parent table. In the 'Impal' database, foreign keys are utilized to establish relationships between tables, linking data based on the primary key of another table.
 
+## Database Queries
 
+##DDL (Data Definition Language)
 
 
 
