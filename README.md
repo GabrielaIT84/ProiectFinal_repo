@@ -10,4 +10,71 @@ Tools used: MySQL Workbench.You can find the code here.
 You can find below the database schema that was generated through Impal and which contains all the tables and the relationships between them.
 The tables are connected in the following way:
 
+Database Structure
+
 ![image](https://github.com/user-attachments/assets/601ddc01-f809-4c0b-a417-a01b0c72bfaa)
+
+
+Table Relationships:
+You can see below the database schema that was generated trough Impal which contains all the tables and the relationship between them.
+a.* Table **Produse** is connected with Table **Clienti** trough a relationship **1:m** which was implemented trough
+**Produse_produse_id** as a primary key and
+**Clienti_fk_Clienti_produse** as a forgein key
+
+b. Table **Clienti** is connected with Table **ComandaClienti** trough a relationship **1:m ** which was implemented trough
+**Clienti_client_id**  as a primary key and
+**ComandaClienti_ComandaClienti_Clienti** as a forgein key 
+
+c. Table **ComandaClienti** is connected with Table **ComandaDetailata** trough a relationship **1:m ** which was implemented trough
+**CoandaClienti_Comanda_id**  as a primary key and
+**ComandaDetailata_fk_ComandaDetailata_ComandaClienti_clienti** as a forgein key
+
+Tables
+
+
+1.	Produse 
+
+•	Produse_id (int primary key auto_increment)
+•	Client_id int,
+•	NumeArticol (varchar(30))
+•	Pret float
+•	Agent (varchar(30))
+
+2.	Clienti
+• Client_id int not null auto_increment,
+•	NumeClient varchar(30) not null,
+•	Adresa varchar(30) not null,
+•	Telefon varchar(10),
+• Produse_id int not null,
+•	primary key (client_id),
+•	constraint fk_Clienti_Produse foreign key (produse_id) references Produse(produse_id)
+
+
+ 3. ComandaClienti
+•	Comanda_id int not null auto_increment,
+•	DataComanda date,
+•	PretTotal Float,
+•	Client_id int not null,
+•	Produse_id int not null,
+•	Primary key(comanda_id),
+•	Constraint fk_ComandaClienti_Clienti foreign key (client_id) 
+•	References Clienti(client_id)
+
+4. ComandaDetailata
+•	CD_id int not null auto_increment,
+•	NumarFactura varchar(10),
+• Produse_id int not null,
+•	Client_id int not null,
+• Comanda_id int not null,
+• Primary key(CD_id),
+• Constraint fk_ComandaDetailata_ComandaClienti foreign key(comanda_id) 
+• References ComandaClienti(comanda_id)
+
+
+
+
+
+
+
+
+
