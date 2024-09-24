@@ -102,19 +102,54 @@ In order to be able to use the database I populated the tables with various data
 
 Below you can find all the insert instructions that were created in the scope of this project:
 
+
 ![image](https://github.com/user-attachments/assets/27d3e65c-ba97-48bc-833d-4877167f2a5f)
+
 
 ![image](https://github.com/user-attachments/assets/bd487a81-f71d-4fe0-9f65-ef917f1d75e1)
 
+
 After the insert, in order to prepare the data to be better suited for the testing process, I updated some data in the following way:
+
 
 ![image](https://github.com/user-attachments/assets/58d98c8b-1285-404c-a8d9-6ee4240e2437)
 
+
+After the testing process, I deleted the data that was no longer relevant in order to preserve the database clean:
+
+
 ![image](https://github.com/user-attachments/assets/7e7b01ad-89c5-4824-bc13-2d1135cc4baf)
 
+**DQL (Data Query Language)**
 
-
+In order to simulate various scenarios that might happen in real life I created the following queries that would cover multiple potential real-life situations:
  
+![image](https://github.com/user-attachments/assets/153a3f41-7dac-416c-a6cb-7a9e0f6823d8)
+
+
+![image](https://github.com/user-attachments/assets/eb70674c-5e5b-4f39-99a9-a976e9763d00)
+
+
+![image](https://github.com/user-attachments/assets/775dd1f3-a5e4-499e-bdcc-cfedae2aeaee)
+
+
+## Conclusions:
+This database project for a "IMPAL" application has been a comprehensive and practical application of SQL knowledge gained throughout the Software Testing course. The following key points summarize the work and lessons learned:
+
+**SQL Application:** The project provided hands-on experience in applying SQL concepts, including data definition, manipulation, and querying. Creating tables, establishing relationships, and performing CRUD operations enhanced the understanding of SQL in a real-world context.
+
+**Database Design and Relationships:** Designing the database schema and establishing relationships between tables were crucial aspects of the project. The clear representation of one-to-many and many-to-one relationships laid a strong foundation for effective data management.
+
+**Tools Proficiency:** Working with MySQL Workbench showcased proficiency in using database management tools. The ability to translate conceptual designs into executable SQL code was developed and honed during the project.
+
+**Realistic Data Scenarios:** The inclusion of realistic data scenarios during testing demonstrated the importance of testing in a manner that reflects actual usage patterns. This contributed to the identification of potential issues and ensured the robustness of the database.
+
+**Querying Strategies:** The project involved creating diverse querying scenarios, covering a range of use cases. This helped in developing effective querying strategies and understanding how to retrieve specific information from a complex database structure.
+
+**Testing Considerations:** While testing was briefly mentioned, further emphasis on testing methodologies and strategies could enhance the project's overall quality. Testing is a critical aspect of software development, and a more detailed approach could be beneficial.
+
+_In conclusion,_ this database project has been a valuable opportunity to apply theoretical knowledge to a practical scenario, reinforcing SQL concepts and skills. It serves as a foundation for further exploration and improvement in database design and management. The experience gained from this project contributes to a broader understanding of software development and database administration.
+
 
 
 
