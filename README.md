@@ -78,7 +78,12 @@ c. Table **ComandaClienti** is connected with Table **ComandaDetailata** trough 
 
 ## Database Queries
 
-##DDL (Data Definition Language)
+**DDL (Data Definition Language)**
+The following instructions were written in the scope of CREATING the structure of the database (CREATE INSTRUCTIONS)
+
+![image](https://github.com/user-attachments/assets/35e8af18-c8fd-4b14-856c-6475258339c1)
+
+![image](https://github.com/user-attachments/assets/49d29b52-3558-4829-8378-579ba6d95444)
 
 
 
