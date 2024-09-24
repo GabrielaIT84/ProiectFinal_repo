@@ -34,16 +34,14 @@ c. Table **ComandaClienti** is connected with Table **ComandaDetailata** trough 
 **Tables**
 
 ```
-1.	**Produse**
-
+1.Produse
 • Produse_id (int primary key auto_increment)
 • Client_id int,
 • NumeArticol (varchar(30))
 • Pret float
 • Agent (varchar(30))
 
-2.	**Clienti**
-   
+2.Clienti
 • Client_id int not null auto_increment
 • NumeClient varchar(30) not null
 • Adresa varchar(30) not null
@@ -53,8 +51,7 @@ c. Table **ComandaClienti** is connected with Table **ComandaDetailata** trough 
 • constraint fk_Clienti_Produse foreign key (produse_id) references Produse(produse_id)
 
 
- 3. **ComandaClienti**
-    
+ 3. ComandaClienti
 • Comanda_id int not null auto_increment
 • DataComanda date
 • PretTotal Float
@@ -64,8 +61,7 @@ c. Table **ComandaClienti** is connected with Table **ComandaDetailata** trough 
 • Constraint fk_ComandaClienti_Clienti foreign key (client_id) 
 • References Clienti(client_id)
 
-4. **ComandaDetailata** 
-   
+4. ComandaDetailata 
 • CD_id int not null auto_increment
 • NumarFactura varchar(10)
 • Produse_id int not null
