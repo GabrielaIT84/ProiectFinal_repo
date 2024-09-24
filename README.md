@@ -18,6 +18,7 @@ The tables are connected in the following way:
 **Table Relationships:**
 
 You can see below the database schema that was generated trough Impal which contains all the tables and the relationship between them.
+
 a.* Table **Produse** is connected with Table **Clienti** trough a relationship **1:m** which was implemented trough
 **Produse_produse_id** as a primary key and
 **Clienti_fk_Clienti_produse** as a forgein key
@@ -49,7 +50,7 @@ c. Table **ComandaClienti** is connected with Table **ComandaDetailata** trough 
 • Telefon varchar(10)
 • Produse_id int not null
 • primary key (client_id)
-• constraint fk_Clienti_Produse foreign key (produse_id) references Produse(produse_id)```
+• constraint fk_Clienti_Produse foreign key (produse_id) references Produse(produse_id)
 
 
  3. **ComandaClienti**
@@ -72,7 +73,9 @@ c. Table **ComandaClienti** is connected with Table **ComandaDetailata** trough 
 • Comanda_id int not null
 • Primary key(CD_id)
 • Constraint fk_ComandaDetailata_ComandaClienti foreign key(comanda_id) 
-• References ComandaClienti(comanda_id) ```
+• References ComandaClienti(comanda_id)
+
+```
 
 
 
