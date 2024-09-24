@@ -38,11 +38,11 @@ Tables
 •	Client_id int,
 •	NumeArticol (varchar(30))
 •	Pret float
-•	Agent (varchar(30))```
+•	Agent (varchar(30))
 
 2.	**Clienti**
    
-```• Client_id int not null auto_increment
+• Client_id int not null auto_increment
 •	NumeClient varchar(30) not null
 •	Adresa varchar(30) not null
 •	Telefon varchar(10)
@@ -53,18 +53,18 @@ Tables
 
  3. **ComandaClienti**
     
-```•	Comanda_id int not null auto_increment
+•	Comanda_id int not null auto_increment
 •	DataComanda date
 •	PretTotal Float
 •	Client_id int not null
 •	Produse_id int not null
 •	Primary key(comanda_id)
 •	Constraint fk_ComandaClienti_Clienti foreign key (client_id) 
-•	References Clienti(client_id)```
+•	References Clienti(client_id)
 
 4. **ComandaDetailata** 
    
-```•	CD_id int not null auto_increment
+•	CD_id int not null auto_increment
 •	NumarFactura varchar(10)
 • Produse_id int not null
 •	Client_id int not null
