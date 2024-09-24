@@ -86,8 +86,18 @@ The following instructions were written in the scope of CREATING the structure o
 ![image](https://github.com/user-attachments/assets/0d861575-2db8-4705-bca3-4cd48adbb103)
 
 
+In the example above, I created the "Produse" table, which includes the following columns:
 
-
-
-
+User ID, which is unique, is of type INT (integer), representing whole numbers.
+Username has the data type VARCHAR(32), a string of up to 32 characters, and it cannot be left empty.
+Email has the data type VARCHAR(255), a string of up to 255 characters. The UNIQUE constraint enforces that values in a column or a combination of columns must be unique across the entire dataset of the table.
+Password is of type VARCHAR(125), a string of up to 125 characters.
+DateOfBirth is of type DATE, storing only dates in the format year/month/day.
+```
+•<b>Produse_id<b> (int primary key auto_increment)
+• Client_id int,
+• NumeArticol (varchar(30))
+• Pret float
+• Agent (varchar(30))
+```
 
