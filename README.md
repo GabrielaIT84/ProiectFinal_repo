@@ -42,34 +42,34 @@ Tables
 
 2.	Clienti
    
-• Client_id int not null auto_increment,
-•	NumeClient varchar(30) not null,
-•	Adresa varchar(30) not null,
-•	Telefon varchar(10),
-• Produse_id int not null,
-•	primary key (client_id),
+• Client_id int not null auto_increment
+•	NumeClient varchar(30) not null
+•	Adresa varchar(30) not null
+•	Telefon varchar(10)
+• Produse_id int not null
+•	primary key (client_id)
 •	constraint fk_Clienti_Produse foreign key (produse_id) references Produse(produse_id)
 
 
  3. ComandaClienti
     
-•	Comanda_id int not null auto_increment,
-•	DataComanda date,
-•	PretTotal Float,
-•	Client_id int not null,
-•	Produse_id int not null,
-•	Primary key(comanda_id),
+•	Comanda_id int not null auto_increment
+•	DataComanda date
+•	PretTotal Float
+•	Client_id int not null
+•	Produse_id int not null
+•	Primary key(comanda_id)
 •	Constraint fk_ComandaClienti_Clienti foreign key (client_id) 
 •	References Clienti(client_id)
 
 4. ComandaDetailata
    
-•	CD_id int not null auto_increment,
-•	NumarFactura varchar(10),
-• Produse_id int not null,
-•	Client_id int not null,
-• Comanda_id int not null,
-• Primary key(CD_id),
+•	CD_id int not null auto_increment
+•	NumarFactura varchar(10)
+• Produse_id int not null
+•	Client_id int not null
+• Comanda_id int not null
+• Primary key(CD_id)
 • Constraint fk_ComandaDetailata_ComandaClienti foreign key(comanda_id) 
 • References ComandaClienti(comanda_id)
 
