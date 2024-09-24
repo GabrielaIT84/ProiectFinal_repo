@@ -34,11 +34,11 @@ Tables
 
 1.	**Produse**
 
-•	Produse_id (int primary key auto_increment)
+```•	Produse_id (int primary key auto_increment)
 •	Client_id int,
 •	NumeArticol (varchar(30))
 •	Pret float
-•	Agent (varchar(30))
+•	Agent (varchar(30))```
 
 2.	**Clienti**
    
