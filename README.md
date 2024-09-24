@@ -89,11 +89,25 @@ The following instructions were written in the scope of CREATING the structure o
 In the example above, I created the "Produse" table, which includes the following columns:
 
 ```
-• _Produse_id_ (int primary key auto_increment) which is unique, is of type INT (integer), representing whole numbers.
-• _Client_id _ is of type INT (integer), representing whole numbers.
-• _NumeArticol_ has the data type VARCHAR(30), a string of up to 30 characters.
-    The UNIQUE constraint enforces that values in a column or a combination of columns must be unique across the entire dataset of the table.
-• _Pret_ float
-• _Agent _ is of type VARCHAR(30), a string of up to 30 characters.
+• Produse_id (int primary key auto_increment) which is unique, is of type INT (integer), representing whole numbers.
+• Client_id  is of type INT (integer), representing whole numbers.
+• NumeArticol has the data type VARCHAR(30), a string of up to 30 characters.
+The UNIQUE constraint enforces that values in a column or a combination of columns must be unique across the entire dataset of the table.
+• Pret float
+• Agent  is of type VARCHAR(30), a string of up to 30 characters.
+
 ```
+**DML (Data Manipulation Language)**
+In order to be able to use the database I populated the tables with various data necessary in order to perform queries and manipulate the data. In the testing process, this necessary data is identified in the Test Design phase and created in the Test Implementation phase.
+
+Below you can find all the insert instructions that were created in the scope of this project:
+
+![image](https://github.com/user-attachments/assets/27d3e65c-ba97-48bc-833d-4877167f2a5f)
+
+![image](https://github.com/user-attachments/assets/bd487a81-f71d-4fe0-9f65-ef917f1d75e1)
+
+
+
+
+
 
