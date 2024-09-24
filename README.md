@@ -1,4 +1,4 @@
-**Database Project for Impal**
+##Database Project for Impal##
 
 The scope of this project is to use all the SQL knowledge gained throught the Software Testing course and apply them in practice.
 This project represents a simple Impal application with functionalities for adding users, posts, comments, likes, and followers.
